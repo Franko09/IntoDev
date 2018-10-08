@@ -1,0 +1,24 @@
+@import "base.palettes";
+@import "base.mixins";
+
+html{
+    background: $color-3;
+    color: $color-2;
+}
+
+a {
+    color: $color-2;
+
+    @include hocus() 
+    {
+        color: $color-5;
+    }
+}
+
+ul {
+    margin: 0;
+
+    li {
+        padding: 0;
+    }
+}

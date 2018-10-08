@@ -1,4 +1,19 @@
-h1{
-    font-size: 60px;
-    color: rebeccapurple;
+@import "Base/base";
+
+blockquote {
+    border-left: 2px solid $color-5;
+    padding-left: $spacing-normal;
+}
+
+.box {
+    background: $color-1;
+    padding: $spacing-normal;
+
+    > p { margin: 0; }
+}
+
+.rounded-box {
+    @extend .box;
+
+    @include vendor(border-radius, $spacing-normal)
 }

@@ -1,6 +1,80 @@
-h1 {
-  font-size: 60px;
-  color: rebeccapurple;
+@import url("https://fonts.googleapis.com/css?family=Barlow+Condensed:300,400,500,700,900");
+body {
+  font-family: "Barlow Condensed", sans-serif;
 }
 
-/*# sourceMappingURL=Style.css.map */
+/* Coolors Exported Palette - coolors.co/5c9ead-ffffff-326273-eeeeee-e39774 */
+/* RGB */
+html {
+  background: #29515f;
+  color: white;
+}
+
+a {
+  color: white;
+}
+a:hover, a:focus {
+  color: #e39774;
+}
+
+ul {
+  margin: 0;
+}
+ul li {
+  padding: 0;
+}
+
+body {
+  line-height: 24px;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 61.2px;
+}
+
+h2 {
+  font-size: 57.6px;
+}
+
+h3 {
+  font-size: 54px;
+}
+
+h4 {
+  font-size: 46.8px;
+}
+
+h5 {
+  font-size: 36px;
+}
+
+h6 {
+  font-size: 32.4px;
+}
+
+blockquote {
+  border-left: 2px solid #e39774;
+  padding-left: 24px;
+}
+
+.box, .rounded-box {
+  background: #88b8c3;
+  padding: 24px;
+}
+.box > p, .rounded-box > p {
+  margin: 0;
+}
+
+.rounded-box {
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  border-radius: 24px;
+}
+
+/*# sourceMappingURL=style.css.map */
